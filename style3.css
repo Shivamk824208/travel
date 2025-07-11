@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: 'Segoe UI',  sans-serif;
+    line-height: 1.6;
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1e2a38;
+    padding: 20px 50px ;
+    color: white;
+  
+}
+.logo{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    
+}
+a{
+    gap: 10px;
+}
+.hero{
+    background-color: url('https:..//AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/TempState/850AF92F8D9903E7A4E0559A98ECC857/WhatsApp Image 2025-07-06 at 21.52.22_b32a9766.jpg') no-repeat center center/cover; */
+    color: white;
+     height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+.hero h1{
+     font-size: 3rem;
+     margin-bottom: 10px;
+
+}
+.hero p{
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+.btn{
+    padding: 12px 30px;
+    background-color: #ff6200;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
+.destinations, .packages{
+    padding: 60px 30px;
+    text-align: center;
+}
+h2{
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #333;
+}
+.destinations-cards, .packages-cards{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: #f5f5f5 ;
+    border-radius: 10px ;
+    overflow: hidden ;
+    width: 300px;
+    padding: 20px;
+    transition: transform 0.3s ease;
+}
+.card img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.card :hover{
+    transform: translateY(-5px);
+}
+.card h3{
+    margin: 15px 0 10px;
+}
+.card p{
+    color: #555;
+}
+.contact{
+    padding: 60px 30px;
+    background-color: #eef;
+    text-align: center;
+}
+.contact form{
+      max-width: 500px;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+}
+.contact input, .contact textarea{
+       padding: 12px;
+       font-size: 1rem;
+       border: 1px solid #ccc;
+       border-radius: 6px;
+}
+.contact button{
+    background-color: #0099cc;
+    color: white;
+    padding: 12px;
+    font-size: 1rem;
+    border: 2px dashed rgb(220, 52, 22);
+    border-radius: 6px;
+    cursor: pointer;
+
+}
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+#bookNow{
+    background-color: #210da0;
+    color: rgb(183, 20, 20);
+    text-align: center;
+    padding: 20px;
+}
